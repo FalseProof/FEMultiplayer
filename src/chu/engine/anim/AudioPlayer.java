@@ -13,7 +13,7 @@ public class AudioPlayer {
 
 	public static void setCamera(Camera c) {
 		camera = c;
-		globalGain = 0f;
+		globalGain = -8f;
 	}
 
 	public static void playAudio(String name, float pitch, float gain, float x,
